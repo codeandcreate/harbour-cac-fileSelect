@@ -5,15 +5,15 @@ A simple file/folder selector dialog for sailfish os apps. (developer example)
 
 How to use:
 ...
-onClicked: {
-    var cacFileSelect = pageStack.push(Qt.resolvedUrl("cacFileSelect.qml"), {
-        //options (see below)
-    })
+    onClicked: {
+        var cacFileSelect = pageStack.push(Qt.resolvedUrl("cacFileSelect.qml"), {
+            //options (see below)
+        })
 
-    cacFileSelect.accepted.connect(function() {
-        // just do something with "cacFileSelect.selectedFileName"
-    })
-}
+        cacFileSelect.accepted.connect(function() {
+            // just do something with "cacFileSelect.selectedFileName"
+        })
+    }
 ...
 
 pageStack.push options:
