@@ -1,10 +1,8 @@
 # harbour-cac-fileSelect
 A simple file/folder selector dialog for sailfish os apps. (developer example)
 
-A simple file/folder selector dialog for sailfish os apps. (developer example)
-
 How to use:
-...
+```
     onClicked: {
         var cacFileSelect = pageStack.push(Qt.resolvedUrl("cacFileSelect.qml"), {
             //options (see below)
@@ -14,7 +12,8 @@ How to use:
             // just do something with "cacFileSelect.selectedFileName"
         })
     }
-...
+```
+
 
 pageStack.push options:
 setRootFolder, setFolder, setShowHidden
